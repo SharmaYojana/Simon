@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="nyc.c4q.yojana.simon.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Begin..."
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/red"
+            android:onClick="onClick"
+            android:id="@+id/red"/>
+
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/green"
+            android:onClick="onClick"
+            android:id="@+id/green"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        tools:context="nyc.c4q.yojana.simon.MainActivity">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/blue1"
+            android:onClick="onClick"
+            android:id="@+id/blue1"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/yellow"
+            android:onClick="onClick"
+            android:id="@+id/yellow"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
